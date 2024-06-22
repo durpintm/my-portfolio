@@ -23,6 +23,7 @@
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);
+  height: 35rem;
 }
 
 .about__me-image:hover {
@@ -84,6 +85,9 @@
   .about__content p {
     margin: 1rem 0 1.5rem;
   }
+  .about__me-image {
+    height: 28rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -103,5 +107,8 @@
 
   .about__content p {
     margin: 1.5rem 0;
+  }
+  .about__me-image {
+    height: 20rem;
   }
 }
